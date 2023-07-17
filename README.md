@@ -1,7 +1,5 @@
 # GSI
-The code and datasets are being released...
-
-The code is for our paper ["Rainfall Spatial Interpolation with Graph Neural Networks"](https://link.springer.com/chapter/10.1007/978-3-031-30678-5_14) and this paper has been accepted by DASFAA 2023.
+The code is for our paper ["Rainfall Spatial Interpolation with Graph Neural Networks"](https://link.springer.com/chapter/10.1007/978-3-031-30678-5_14), and this paper has been accepted by DASFAA 2023.
 
 ##  Datasets and Baselines
 **For more dataset and baseline details, please refer to our latest work and its code repository: [SSIN](https://github.com/jlidw/SSIN).**
@@ -55,3 +53,6 @@ For GNN-based baselines, please refer to their original code: [KCN](https://gith
   organization={Springer}
 }
 ```
+
+## Discussion
+TBD
