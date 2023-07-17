@@ -17,8 +17,8 @@ In the `baselines` folder of [SSIN](https://github.com/jlidw/SSIN), you can find
 For GNN-based baselines, please refer to their original code: [KCN](https://github.com/tufts-ml/KCN) and [IGNNK](https://github.com/Kaimaoge/IGNNK).
 
 ## Instructions
-`baselines`:
-* Include the implementation of IDW, OK, TIN, and TPS.
+`networks`:
+* Include files about the network layers and the model architecture.
 
 ## Citation
 ```
