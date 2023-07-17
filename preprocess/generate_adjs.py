@@ -46,7 +46,7 @@ def calc_adj_mat(info_path, out_dir, out_name, dist_type="idw", power=2, thr_rat
 
 
 if __name__ == "__main__":
-    base_dir = "../../../../data"
+    base_dir = "../data"
 
     dist_type = "idw"  # idw, Gaussian
     power = 2
