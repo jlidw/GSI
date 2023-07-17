@@ -32,13 +32,17 @@ For GNN-based baselines, please refer to their original code: [KCN](https://gith
 * `pytorchtools.py`: build the EarlyStopping function.
 * `utils.py`: some useful functions.
 
-`training_funcs.py`: define training-related functions which will be called by the main function of `train_gcn.py`/`train_rc_by_gcn.py`/`train_rc_by_kriging.py`.
+`training_funcs.py`: 
+* define training-related functions which will be called by the main function of "train_gcn.py" / "train_rc_by_gcn.py" / "train_rc_by_kriging.py".
 
-`train_gcn.py`: train the GSI model to perform the spatial interpolation.
+`train_gcn.py`: 
+* train the GSI model to perform spatial interpolation.
 
-`train_rc_by_gcn.py`: reload the trained GSI model for spatial interpolation and perform **residual correction by GSI itself**.
+`train_rc_by_gcn.py`: 
+* reload the trained GSI model for spatial interpolation and perform **residual correction by GSI**.
 
-`train_rc_by_kriging.py`: reload the trained GSI model for spatial interpolation and perform **residual correction by Kriging**.
+`train_rc_by_kriging.py`: 
+* reload the trained GSI model for spatial interpolation and perform **residual correction by Kriging**.
 
 ## Citation
 ```
