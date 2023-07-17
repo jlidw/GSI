@@ -19,7 +19,19 @@ For GNN-based baselines, please refer to their original code: [KCN](https://gith
 ## Instructions
 `networks`:
 * Include files about the network layers and the model architecture.
+  
+`postprocess`:
+* Calculate the RMSE, MAE, and NSE for predicted results.
 
+`preprocess`:
+* `generate_adjs.py`: generate adjacency matrix for HK/BW dataset. 
+* `preprocessing.py`: preprocess HK/BW dataset and general the `pkl` data for training/testing.
+
+`utils`:
+* `cfg.py`: build the argument function.
+* `pytorchtools.py`: build the EarlyStopping function.
+* `utils.py`: some useful functions.
+  
 ## Citation
 ```
 @inproceedings{li2023rainfall,
