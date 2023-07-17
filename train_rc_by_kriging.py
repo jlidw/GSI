@@ -1,7 +1,7 @@
 import tqdm
 import sys
 sys.path.append('..')  # import the upper directory of the current file into the search path
-from version_dasfaa.preprocess.data_helper import load_pkl_data, SelfStandardScaler
+from .preprocess.preprocessing import load_pkl_data, SelfStandardScaler
 from .utils.cfg import get_default_args
 from .utils.utils import *
 from .training_funcs import *

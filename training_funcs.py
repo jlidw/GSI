@@ -12,7 +12,7 @@ from torch.optim.lr_scheduler import ReduceLROnPlateau
 import sys
 sys.path.append('..')
 from .utils.pytorchtools import EarlyStopping
-from version_dasfaa.preprocess.data_helper import numpy_to_tensor
+from .preprocess.preprocessing import numpy_to_tensor
 from .networks.models import GSI, GCN
 
 
